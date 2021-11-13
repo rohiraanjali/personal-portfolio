@@ -6,6 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+      integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <header class="header">
@@ -26,88 +33,585 @@
         </div>
       </nav>
     </header>
-    <main class="container__main">
-      <section id="hero">
-        <div class="hero__content1-wrap">
-          <div class="hero__content1">
-            <div class="hero__ct1-img">
-              <img src="./images/pngimg.png" alt="img" />
-            </div>
-            <div class="hero__ct1-text">
-              <h3 class="hc-text">Richard</h3>
-              <h3 class="hc-text">Davies</h3>
-              <p class="hc-text-p">Founder Evbex, Author, Leturer</p>
+    <main class="main-container">
+      <div class="hero-wrap">
+        <section class="hero">
+          <div class="hero-content">
+            <img src="./images/img1.png" alt="" class="hero-img" />
+            <div class="hero-text-wrap">
+              <h1 class="hr-text-h1">Richard</h1>
+              <h1 class="hr-text-h1">Davies</h1>
+              <p class="hr-text-p">Founder Evbex, Author, Lecturer</p>
             </div>
           </div>
-        </div>
-        <div class="hero__content2-wrap">
-          <div class="hero__content2">
-            <div class="hr__ct2-img">
-              <img src="./images/img2.jpg" alt="img" />
+        </section>
+      </div>
+      <!-------- About Section Starts from here --------->
+
+      <div class="about-wrap">
+        <section class="about">
+          <div class="about-content">
+            <div class="about-img-wrap">
+              <img src="./images/t-richard.webp" alt="" class="about-img" />
             </div>
-            <div class="hr__ct2-text">
-              <h3 class="hc2-text">Richard Davies</h3>
-              <p class="hc2-text-p">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Voluptates quasi asperiores placeat temporibus deserunt vitae,
+            <div class="about-text">
+              <h2 class="ab-title">Richard Davis</h2>
+              <p class="ab-text">
+                Richard Davies is the CEO and founder of Evbex, the estate and
+                facilities management support organisation, Evbex Asia and
+                Evbex-FRP.
               </p>
-              <p class="hc2-text-p">
-                dicta ipsa assumenda, distinctio ex rem facilis. In praesentium
-                sit odit consequatur culpa laudantium laborum quam, at animi
-                unde eum eligendi est maiores possimus, numquam reprehenderit
-                soluta? Cupiditate amet ab ad, deleniti sapiente dolor
-                molestias. Lorem ipsum, dolor sit amet consectetur adipisicing
-                elit. Debitis obcaecati sed possimus? Minima cum illum aliquid
-                rerum placeat velit temporibus cumque nihil maiores beatae,
-                laudantium perspiciatis, quam assumenda fugit, quidem suscipit
-                ratione voluptates fugiat commodi debitis deserunt labore quis
-                veniam.
+              <p class="ab-text">
+                He has written various papers and publications, and is a
+                visiting lecturer at various universities, providing training
+                and sharing his insights. He represents UK in the International
+                Standards Organisation(ISO), contributing towards the new breed
+                of International FM standards, including the acclaimed ISO
+                41001: Facilities Management Systems. Further, he also
+                contributed towards FM and Maintenance Standards within British
+                Standards Institution(BSI).
               </p>
             </div>
           </div>
-        </div>
-      </section>
-      <section id="services" class="services">
-        <div class="services-wrap">
-          <div class="services__title">
-            <h1>Services</h1>
-          </div>
-          <div class="services__carousel-wrap">
-            <div class="services__carousel">
-              <div class="sc-card">
-                <div class="sc-card-icon">icon here</div>
-                <div class="sc-card-text">
-                  <h1>title</h1>
-                  <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Enim, architecto?
+        </section>
+      </div>
+      <div class="services-wrap">
+        <section class="services">
+          <div class="services-content">
+            <div class="services-title-wrap section-title">
+              <h3 class="services-title">Services</h3>
+            </div>
+            <div class="services-carousel-wrap">
+              <div class="servicer-carousel">
+                <div class="sc-card">
+                  <div class="card-img-wrap">
+                    <img
+                      src="./images/icon2.svg"
+                      alt="icon2"
+                      class="card-img"
+                    />
+                  </div>
+                  <h3 class="card-title">Management Consulting</h3>
+                  <p class="card-text">
+                    Management consulting is the practice of helping
+                    organizations to improve their performance. Organizations
+                    may draw upon the services for gaining external advice.
                   </p>
                 </div>
-              </div>
-              <div class="sc-card">
-                <div class="sc-card-icon">icon here</div>
-                <div class="sc-card-text">
-                  <h1>title</h1>
-                  <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Enim, architecto?
+                <div class="sc-card">
+                  <div class="card-img-wrap">
+                    <img
+                      src="./images/icon1.svg"
+                      alt="icon2"
+                      class="card-img"
+                    />
+                  </div>
+                  <h3 class="card-title">Estate</h3>
+                  <p class="card-text">
+                    Real estate can include property, land, buildings, air
+                    rights above the land, and underground rights below the
+                    land. Real estate is a form of real property.
                   </p>
                 </div>
-              </div>
-              <div class="sc-card">
-                <div class="sc-card-icon">icon here</div>
-                <div class="sc-card-text">
-                  <h1>title</h1>
-                  <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Enim, architecto?
+                <div class="sc-card">
+                  <div class="card-img-wrap">
+                    <img
+                      src="./images/icon3.svg"
+                      alt="icon2"
+                      class="card-img"
+                    />
+                  </div>
+                  <h3 class="card-title">Project Management</h3>
+                  <p class="card-text">
+                    Project management is the use of specific knowledge, skills,
+                    tools and techniques to deliver something of value to
+                    people.
+                  </p>
+                </div>
+                <div class="sc-card">
+                  <div class="card-img-wrap">
+                    <img
+                      src="./images/icon3.svg"
+                      alt="icon2"
+                      class="card-img"
+                    />
+                  </div>
+                  <h3 class="card-title">Project Management</h3>
+                  <p class="card-text">
+                    Project management is the use of specific knowledge, skills,
+                    tools and techniques to deliver something of value to
+                    people.
+                  </p>
+                </div>
+                <div class="sc-card">
+                  <div class="card-img-wrap">
+                    <img
+                      src="./images/icon3.svg"
+                      alt="icon2"
+                      class="card-img"
+                    />
+                  </div>
+                  <h3 class="card-title">Project Management</h3>
+                  <p class="card-text">
+                    Project management is the use of specific knowledge, skills,
+                    tools and techniques to deliver something of value to
+                    people.
+                  </p>
+                </div>
+                <div class="sc-card">
+                  <div class="card-img-wrap">
+                    <img
+                      src="./images/icon3.svg"
+                      alt="icon2"
+                      class="card-img"
+                    />
+                  </div>
+                  <h3 class="card-title">Project Management</h3>
+                  <p class="card-text">
+                    Project management is the use of specific knowledge, skills,
+                    tools and techniques to deliver something of value to
+                    people.
+                  </p>
+                </div>
+                <div class="sc-card">
+                  <div class="card-img-wrap">
+                    <img
+                      src="./images/icon3.svg"
+                      alt="icon2"
+                      class="card-img"
+                    />
+                  </div>
+                  <h3 class="card-title">Project Management</h3>
+                  <p class="card-text">
+                    Project management is the use of specific knowledge, skills,
+                    tools and techniques to deliver something of value to
+                    people.
+                  </p>
+                </div>
+                <div class="sc-card">
+                  <div class="card-img-wrap">
+                    <img
+                      src="./images/icon3.svg"
+                      alt="icon2"
+                      class="card-img"
+                    />
+                  </div>
+                  <h3 class="card-title">Project Management</h3>
+                  <p class="card-text">
+                    Project management is the use of specific knowledge, skills,
+                    tools and techniques to deliver something of value to
+                    people.
+                  </p>
+                </div>
+                <div class="sc-card">
+                  <div class="card-img-wrap">
+                    <img
+                      src="./images/icon3.svg"
+                      alt="icon2"
+                      class="card-img"
+                    />
+                  </div>
+                  <h3 class="card-title">Project Management</h3>
+                  <p class="card-text">
+                    Project management is the use of specific knowledge, skills,
+                    tools and techniques to deliver something of value to
+                    people.
                   </p>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </div>
+      <div class="papers-wrap">
+        <section class="papers">
+          <div class="papers-content">
+            <div class="papers-title-wrap section-title">
+              <h2 class="papers-title">Papers & Publications</h2>
+            </div>
+            <div class="papers-card-wrap">
+              <div class="pc-wrap2">
+                <div class="pc-wrap3">
+                  <div class="papers-card">
+                    <img
+                      class="papers-card-img"
+                      src="./images/Papers-img1.jpg"
+                      alt="IMg"
+                    />
+                    <div class="papers-card-text">
+                      <h3 class="pc-title">Faculty Management Defenation</h3>
+                      <p class="pc-date">On August 28, 2015</p>
+                      <p class="pc-text">
+                        Facility Management refer to it as an industry that
+                        supports an organization to achieve its objective and
+                        goals through opmtimizing cost saving and efficiencies
+                        within the non-core areas of the business.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="pc-wrap2">
+                <div class="pc-wrap3">
+                  <div class="papers-card">
+                    <img
+                      class="papers-card-img"
+                      src="./images/Papers-img2.jpg"
+                      alt="IMg"
+                    />
+                    <div class="papers-card-text">
+                      <h3 class="pc-title">Faculty Management Defenation</h3>
+                      <p class="pc-date">On August 28, 2015</p>
+                      <p class="pc-text">
+                        Facility Management refer to it as an industry that
+                        supports an organization to achieve its objective and
+                        goals through opmtimizing cost saving and efficiencies
+                        within the non-core areas of the business.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="pc-wrap2">
+                <div class="pc-wrap3">
+                  <div class="papers-card">
+                    <img
+                      class="papers-card-img"
+                      src="./images/Papers-img2.jpg"
+                      alt="IMg"
+                    />
+                    <div class="papers-card-text">
+                      <h3 class="pc-title">Faculty Management Defenation</h3>
+                      <p class="pc-date">On August 28, 2015</p>
+                      <p class="pc-text">
+                        Facility Management refer to it as an industry that
+                        supports an organization to achieve its objective and
+                        goals through opmtimizing cost saving and efficiencies
+                        within the non-core areas of the business.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="pc-wrap2">
+                <div class="pc-wrap3">
+                  <div class="papers-card">
+                    <img
+                      class="papers-card-img"
+                      src="./images/Papers-img2.jpg"
+                      alt="IMg"
+                    />
+                    <div class="papers-card-text">
+                      <h3 class="pc-title">Faculty Management Defenation</h3>
+                      <p class="pc-date">On August 28, 2015</p>
+                      <p class="pc-text">
+                        Facility Management refer to it as an industry that
+                        supports an organization to achieve its objective and
+                        goals through opmtimizing cost saving and efficiencies
+                        within the non-core areas of the business.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="pc-nav">
+              <button class="pc-prev"><</button>
+              <button class="pc-next">></button>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-------- Experience Section Starts from Here --------->
+
+      <div class="experience-wrap">
+        <section class="experience">
+          <div class="experience-content">
+            <div class="experience-title-wrap">
+              <h3 class="experience-title">Experience</h3>
+            </div>
+            <div class="experience-cards">
+              <div class="exp-card">
+                <div class="ec-img-wrap">
+                  <img
+                    src="./images/evbex-logo.png"
+                    alt="evbex-logo"
+                    class="ec-img"
+                  />
+                </div>
+                <div class="ec-text-wrap">
+                  <h3 class="ec-title">CEO & Founder</h3>
+                  <p class="ec-text">september 2016 - Present</p>
+                </div>
+              </div>
+              <div class="exp-card">
+                <div class="ec-img-wrap">
+                  <img
+                    src="./images/evbex-logo.png"
+                    alt="evbex-logo"
+                    class="ec-img"
+                  />
+                </div>
+                <div class="ec-text-wrap">
+                  <h3 class="ec-title">CEO & Founder</h3>
+                  <p class="ec-text">september 2016 - Present</p>
+                </div>
+              </div>
+              <div class="exp-card">
+                <div class="ec-img-wrap">
+                  <img
+                    src="./images/evbex-logo.png"
+                    alt="evbex-logo"
+                    class="ec-img"
+                  />
+                </div>
+                <div class="ec-text-wrap">
+                  <h3 class="ec-title">CEO & Founder</h3>
+                  <p class="ec-text">september 2016 - Present</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-------- Blogs Section Starts from here --------->
+
+      <div class="blogs-wrap">
+        <section class="blogs">
+          <div class="blog-content">
+            <div class="section-title">
+              <h3 class="bg-content-title">Blogs</h3>
+            </div>
+            <div class="blg-grid">
+              <div class="blg-item">
+                <div class="blg-img-wrap">
+                  <img src="images/bc-img1.jpg" alt="" class="blg-img" />
+                </div>
+                <div class="blg-text-wrap">
+                  <h3 class="blg-title">Facility Management at crossroads</h3>
+                  <p class="blg-date">APRIL 16, 2021</p>
+                  <p class="blg-p">
+                    Facility management is often seen as the poor relation
+                    between the organization a commodity whose cost needs to be
+                    continuosly scrutinized and cut accordingly.
+                  </p>
+                </div>
+              </div>
+              <div class="blg-item">
+                <div class="blg-img-wrap">
+                  <img src="images/bc-img2.jpg" alt="" class="blg-img" />
+                </div>
+                <div class="blg-text-wrap">
+                  <h3 class="blg-title">
+                    Facilities Management Definition: Interdependencies and
+                    Critical Success Factors (CSFs)
+                  </h3>
+                  <p class="blg-date">JUNE 6, 2021</p>
+                  <p class="blg-p">
+                    Facilities Management Definition: Interdependencies and
+                    Critical Success Factors (CSFs)
+                  </p>
+                </div>
+              </div>
+              <div class="blg-item">
+                <div class="blg-img-wrap">
+                  <img src="images/bc-img3.jpg" alt="" class="blg-img" />
+                </div>
+                <div class="blg-text-wrap">
+                  <h3 class="blg-title">
+                    Significance of Artificial Intelligence in Facility
+                    Management
+                  </h3>
+                  <p class="blg-date">JULY 31, 2021</p>
+                  <p class="blg-p">
+                    Facility management is the part of the business that has
+                    always been under pressure
+                  </p>
+                </div>
+              </div>
+              <div class="blg-item">
+                <div class="blg-img-wrap">
+                  <img src="images/bc-img4.jpg" alt="" class="blg-img" />
+                </div>
+                <div class="blg-text-wrap">
+                  <h3 class="blg-title">
+                    From Smart and Intelli gent Buildings to the IoT, facilities
+                    management provides the glue that brings it all together for
+                    building and workplace optimisation – a layman’s guide
+                  </h3>
+                  <p class="blg-date">JUNE 22, 2021</p>
+                  <p class="blg-p">
+                    Smart buildings go far beyond saving energy and contributing
+                    to sustainability goals.
+                  </p>
+                </div>
+              </div>
+              <div class="blg-item">
+                <div class="blg-img-wrap">
+                  <img src="images/bc-img5.jpg" alt="" class="blg-img" />
+                </div>
+                <div class="blg-text-wrap">
+                  <h3 class="blg-title">
+                    Strategic Contribution of Facility Management post COVID-19
+                  </h3>
+                  <p class="blg-date">JUNE 8, 2021</p>
+                  <p class="blg-p">
+                    The COVID-19 pandemic has acted as a catalyst for change
+                    within the professional landscape. This will ...
+                  </p>
+                </div>
+              </div>
+              <div class="blg-item">
+                <div class="blg-img-wrap">
+                  <img src="images/bc-img6.jpg" alt="" class="blg-img" />
+                </div>
+                <div class="blg-text-wrap">
+                  <h3 class="blg-title">
+                    Facility Management Technology a key Enabler for the Fourth
+                    Industrial Revolution
+                  </h3>
+                  <p class="blg-date">AUGUST 14, 2021</p>
+                  <p class="blg-p">
+                    Facility Management Technology a key Enabler for the Fourth
+                    Industrial Revolution 1 We are in the middle of the fourth
+                    industrial revolution which is changing the way we work and
+                    live.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <a href="#" class="blg-view-more">View More</a>
+          </div>
+        </section>
+      </div>
+      <!-- Testiomnial Section Starts from here -->
+      <!-- Do not delete any class names under testemonial-content -->
+      <!-- Testimonial-slider class name is used by SlickSlider.js  -->
+
+      <div class="testimonial-wrap">
+        <section class="testimonial">
+          <div class="testimonial-content">
+            <h3 class="tsml-title">What People are saying</h3>
+            <button class="tsml-prev">></button>
+            <div class="testimonial-slider">
+              <div class="tsml-sli">
+                <p class="tsml-sli-text">
+                  “I worked with Richard during the process of selecting a new
+                  Facilities Management partner. A professional who provided
+                  helpful support facilitating discussions and engaging the
+                  teams. We achieved an innovative outcome with a new approach
+                  focusing on delivering great guest experience. I wish him all
+                  the best in his new venture”
+                </p>
+                <h4 class="tsml-sli-name">David Dixon</h4>
+                <p class="tsml-sli-cmpny">CEO, WMC</p>
+              </div>
+              <div class="tsml-sli">
+                <p class="tsml-sli-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptatibus, repellendus. Similique officia at possimus ipsum
+                  eius magni perspiciatis sed non commodi tempore. Tenetur
+                  dignissimos corrupti excepturi quisquam, distinctio
+                </p>
+                <h4 class="tsml-sli-name">Rocket</h4>
+                <p class="tsml-sli-cmpny">CEO, WMC</p>
+              </div>
+              <div class="tsml-sli">
+                <p class="tsml-sli-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Libero tenetur consequuntur odit dolores eaque quibusdam
+                  nostrum repellendus reprehenderit omnis. Sed, voluptatem
+                  possimus. Dolorem veniam sunt cumque repudiandae voluptates
+                  rem nemo!
+                </p>
+                <h4 class="tsml-sli-name">Taylor</h4>
+                <p class="tsml-sli-cmpny">CEO, WMC</p>
+              </div>
+            </div>
+            <button class="tsml-next"><</button>
+          </div>
+        </section>
+      </div>
+      <!-------- Achevements Section Starts from Here --------->
+      <div class="achievements-wrap">
+        <section class="achievements">
+          <h3 class="achievements-title">Achievements</h3>
+          <div class="achievements-content">
+            <div class="ac-block">
+              <div class="ac-block-circle">
+                <div class="abc-logo-wrap">
+                  <img
+                    src="./images/abc-logo1.png"
+                    alt="abc-logo"
+                    class="abc-logo"
+                  />
+                </div>
+              </div>
+              <div class="ac-block-text">
+                <p class="abc-title">
+                  Judge at the Facilities Management Awards 2021
+                </p>
+                <p class="abc-text">
+                  The Facilities Management Awards recognise and celebrate
+                  excellence and innovation in the facilities management
+                  profession in Ireland.
+                </p>
+              </div>
+            </div>
+            <div class="ac-block">
+              <div class="ac-block-circle">
+                <div class="abc-logo-wrap">
+                  <img
+                    src="./images/abc-logo2.png"
+                    alt="abc-logo"
+                    class="abc-logo"
+                  />
+                </div>
+              </div>
+              <div class="ac-block-text">
+                <p class="abc-title">The British Standards Institution (BSi)</p>
+                <p class="abc-text">
+                  Organization dateMay 2019 – Present organization
+                  positionAssociate Consultant Program (Membership 495)
+                </p>
+              </div>
+            </div>
+            <div class="ac-block">
+              <div class="ac-block-circle">
+                <div class="abc-logo-wrap">
+                  <img
+                    src="./images/abc-logo2.png"
+                    alt="abc-logo"
+                    class="abc-logo"
+                  />
+                </div>
+              </div>
+              <div class="ac-block-text">
+                <p class="abc-title">The British Standards Institution (BSi)</p>
+                <p class="abc-text">
+                  Organization dateMay 2019 – Present organization
+                  positionAssociate Consultant Program (Membership 495)
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
     </main>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+      integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+
+    <script src="./index.js"></script>
   </body>
 </html>
