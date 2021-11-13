@@ -13,6 +13,10 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header class="header">
@@ -35,7 +39,7 @@
     </header>
     <main class="main-container">
       <div class="hero-wrap">
-        <section class="hero">
+        <section class="hero" id="home">
           <div class="hero-content">
             <img src="./images/img1.png" alt="" class="hero-img" />
             <div class="hero-text-wrap">
@@ -371,6 +375,7 @@
                 </div>
               </div>
             </div>
+            <a href="#" class="blg-view-more">View More</a>
           </div>
         </section>
       </div>
@@ -535,7 +540,9 @@
       <!-------- Achevements Section Starts from Here --------->
       <div class="achievements-wrap">
         <section class="achievements">
-          <h3 class="achievements-title">Achievements</h3>
+          <div class="achievements-title-wrap section-title">
+            <h3 class="achievements-title">Achievements</h3>
+          </div>
           <div class="achievements-content">
             <div class="ac-block">
               <div class="ac-block-circle">
@@ -597,7 +604,141 @@
           </div>
         </section>
       </div>
+      <div class="newsmedia-wrap">
+        <section class="newsmedia">
+          <div class="nwsmd-title-wrap">
+            <h3 class="nwsmd-title">News & Media</h3>
+            <p class="nwsmd-text">
+              Keep yourself up to date with Niklas latest by checking the feed
+              below.
+            </p>
+          </div>
+          <div class="newsmedia-content">
+            <div class="news-card">
+              <img src="./images/newsimg1.jpg" alt="img1" class="nc-img" />
+              <div class="nc-text-wrap">
+                <h3 class="nc-title">
+                  Moves to develop International Best Practices in Facility
+                  Management
+                </h3>
+                <div class="nc-date">Mar 22, 2019</div>
+                <p class="nc-text">
+                  Richard Davies, CEO and Partner of Evbex-Asia who visited Sri
+                  Lanka for the first time, signed an MoU o partner Arosha
+                  Jayasundera, CEO of AIE ...
+                </p>
+                <a href="#" class="nc-link">read more</a>
+              </div>
+            </div>
+            <div class="news-card">
+              <img src="./images/newsimg2.jpg" alt="img1" class="nc-img" />
+              <div class="nc-text-wrap">
+                <h3 class="nc-title">
+                  “Dedication and commitment” applauded at Facilities Management
+                  Awards 2021
+                </h3>
+                <div class="nc-date">Jun 08, 2021</div>
+                <p class="nc-text">
+                  The facilities management sector is one of the fastest growing
+                  segments of the Irish economy and is worth more than €1.2
+                  billion...
+                </p>
+                <a href="#" class="nc-link">read more</a>
+              </div>
+            </div>
+            <div class="news-card">
+              <img src="./images/newsimg3.jpg" alt="img1" class="nc-img" />
+              <div class="nc-text-wrap">
+                <h3 class="nc-title">
+                  Moves to develop International Best Practices in Facility
+                  Management
+                </h3>
+                <div class="nc-date">Mar 22, 2019</div>
+                <p class="nc-text">
+                  Richard Davies, CEO and Partner of Evbex-Asia who visited Sri
+                  Lanka for the first time, signed an MoU o partner Arosha
+                  Jayasundera, CEO of AIE ...
+                </p>
+                <a href="#" class="nc-link">read more</a>
+              </div>
+            </div>
+          </div>
+          <p class="nwsmd-text">See more news & media »</p>
+        </section>
+      </div>
+      <div class="contact-wrap">
+        <section class="contact">
+          <div class="contact-content">
+            <div class="ctdtl-wrap">
+              <h3>GET IN TOUCH</h3>
+              <p>Cerphilly</p>
+              <p>United Kingdom, CF83 3GG</p>
+              <p>+44(0) 7747 011 726</p>
+              <a href="mailto:richard.davies@evbex.com"
+                >richard.davies@evbex.com</a
+              >
+            </div>
+            <form
+              id="contactform"
+              action="https://formsubmit.io/send/put your email here"
+              method="POST"
+            >
+              <input
+                placeholder="NAME"
+                class="ctf-input name"
+                name="name"
+                type="text"
+                id="name"
+              />
+
+              <input
+                placeholder="EMAIL"
+                class="ctf-input email"
+                name="email"
+                type="email"
+                id="email"
+              />
+
+              <input
+                placeholder="SUBJECT"
+                class="ctf-input"
+                name="subject"
+                type="text"
+                id="subject"
+              />
+
+              <textarea
+                placeholder="MESSAGE"
+                class="ctf-input"
+                name="comment"
+                id="comment"
+                rows="3"
+              ></textarea>
+
+              <input name="_formsubmit_id" type="text" style="display: none" />
+
+              <input class="ctf-submit" value="Submit" type="submit" />
+            </form>
+          </div>
+        </section>
+      </div>
     </main>
+    <footer class="footer">
+      <div class="footer-content">
+        <div>
+          <div class="footer-social">
+            <img src="./images/linkedin-logo.png" alt="logo" class="fc-icon" />
+            <img src="./images/instagram-logo.png" alt="logo" class="fc-icon" />
+            <img src="./images/twitter-logo.png" alt="logo" class="fc-icon" />
+            <img src="./images/youtube-logo.png" alt="logo" class="fc-icon" />
+          </div>
+          <p class="fc-text">© Copyrights Folio. All rights reserved.</p>
+        </div>
+        <a href="#home"
+          ><span class="material-icons-outlined"> arrow_upward </span></a
+        >
+      </div>
+    </footer>
     <script
       src="https://code.jquery.com/jquery-3.6.0.min.js"
       integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="

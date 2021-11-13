@@ -9,6 +9,9 @@
 body {
   background-color: #f3f2f2;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 /* ------styles for header */
 
@@ -181,6 +184,7 @@ body {
 .ab-text {
   margin-top: 1em;
   font-size: 1.2em;
+  line-height: 1.5;
 }
 @media screen and (min-width: 1000px) {
   .about-content {
@@ -448,7 +452,7 @@ li.slick-active {
   flex-direction: column;
   align-items: center;
   color: #ffffff;
-  padding-bottom: 3em;
+  padding-bottom: 4em;
 }
 .experience {
   width: 90%;
@@ -618,7 +622,6 @@ li.slick-active {
 
 .testimonial-wrap {
   width: 100%;
-  min-height: 45em;
   margin-top: 4em;
   display: flex;
   justify-content: center;
@@ -713,7 +716,6 @@ li.slick-active {
 .achievements {
   max-width: 90em;
   width: 100%;
-  margin-top: 6em;
 }
 .achievements {
   width: 100%;
@@ -779,7 +781,7 @@ li.slick-active {
   font-weight: normal;
 }
 .achievements-content {
-  margin-top: 3em;
+  margin-top: 6em;
   box-sizing: border-box;
 }
 @media (max-width: 600px) {
@@ -806,4 +808,218 @@ li.slick-active {
     float: none;
     box-sizing: border-box;
   }
+}
+
+.newsmedia-wrap {
+  width: 100%;
+  margin-top: 5em;
+}
+.newsmedia {
+  width: 100%;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+.newsmedia-content {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 6em;
+}
+.nwsmd-title-wrap {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.nwsmd-title {
+  font-size: 2.5em;
+  font-weight: normal;
+}
+.nwsmd-text {
+  text-align: center;
+  margin-top: 1em;
+  line-height: 1.5;
+}
+.news-card {
+  width: 20em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1f1f1f;
+  margin: 0 1em 2em 1em;
+}
+.nc-img {
+  width: 100%;
+}
+.nc-text-wrap {
+  padding: 1.5em;
+}
+.nc-title {
+  font-size: 2.5em;
+  font-weight: normal;
+}
+.nc-date {
+  margin-top: 1em;
+}
+.nc-text {
+  margin-top: 1em;
+  line-height: 1.5;
+}
+.nc-link {
+  margin-top: 3em;
+  text-decoration: none;
+  color: rgb(247, 15, 15);
+}
+
+/* ------ Contact Form Section------ */
+
+.contact-wrap {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.contact {
+  width: 90%;
+  max-width: 90em;
+  display: flex;
+  justify-content: center;
+}
+.contact-content {
+  margin-top: 6em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ctdtl-wrap {
+  display: grid;
+  gap: 1em;
+}
+.ctdtl-wrap h3 {
+  font-size: 2.5em;
+  font-weight: normal;
+}
+.ctdtl-wrap p {
+  color: #292929;
+}
+.ctdtl-wrap a {
+  text-decoration: none;
+  color: #292929;
+}
+#contactform {
+  margin-top: 3em;
+  width: 100%;
+}
+
+.ctf-input {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 0.8em;
+  padding: 1em;
+}
+.ctf-input::placeholder {
+  color: rgb(20, 20, 20);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.ctf-submit {
+  width: 100%;
+  border: none;
+  background-color: #e39d15;
+  padding: 0.5em 1em 0.5em 1em;
+  font-family: sans-serif;
+  font-style: italic;
+}
+@media (min-width: 780px) {
+  .contact-content {
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+  }
+  #contactform {
+    margin-top: 0;
+  }
+  .ctdtl-wrap {
+    margin-top: 0;
+    width: 100%;
+    display: grid;
+    gap: 1em;
+  }
+  .ctf-input {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 0.8em;
+    padding: 1em;
+  }
+}
+@media (min-width: 1080px) {
+  .ctf-input.name {
+    width: 49%;
+  }
+  .ctf-input.email {
+    width: 49%;
+    float: right;
+  }
+}
+
+/* ------Footer Section------ */
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 8em;
+  margin-bottom: 6em;
+  position: relative;
+}
+.footer-content {
+  max-width: 90em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-social {
+  min-width: 10em;
+  display: flex;
+  justify-content: space-around;
+}
+.fc-icon {
+  width: 20px;
+  height: 20px;
+}
+.fc-text {
+  margin-top: 1.5em;
+}
+.material-icons-outlined {
+  background-color: #e39d15;
+  position: absolute;
+  right: 10%;
+  top: 0;
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px; /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: "liga";
 }
