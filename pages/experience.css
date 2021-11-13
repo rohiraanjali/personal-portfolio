@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f3f2f2;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  box-shadow: -1px 2px 5px rgb(0, 0, 0);
+  background-color: rgb(27, 27, 27);
+}
+.navbar {
+  max-width: 90em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(102, 100, 100);
+}
+.logo__text {
+  font-size: 1.5em;
+}
+.logo__text:nth-child(2) {
+  margin-left: 1em;
+}
+.nav__link {
+  text-decoration: none;
+  color: rgb(102, 100, 100);
+}
+@media (max-width: 65em) {
+  .nav__link {
+    display: none;
+  }
+}
+.nav__link:not(:last-child) {
+  margin-right: 2em;
+}
+.nav__link:hover {
+  color: rgb(223, 224, 224);
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 8em;
+  margin-bottom: 6em;
+  position: relative;
+}
+.footer-content {
+  max-width: 90em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-social {
+  min-width: 10em;
+  display: flex;
+  justify-content: space-around;
+}
+.fc-icon {
+  width: 20px;
+  height: 20px;
+}
+.fc-text {
+  margin-top: 1.5em;
+}
+.material-icons-outlined {
+  background-color: #e39d15;
+  position: absolute;
+  right: 10%;
+  top: 0;
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px; /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: "liga";
+}
+
+/* ------ Experience -------- */
+main {
+  background-color: #262626;
+  padding-top: 4em;
+  padding-bottom: 3em;
+}
+.experience-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ec-card-wrap {
+  margin-top: 3em;
+  width: 100%;
+  max-width: 70em;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+.exp-card {
+  background-color: #1f1f1f;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 2em;
+  margin: 1em;
+  color: #ffffff;
+  width: 20em;
+  text-align: center;
+  float: left;
+}
+.ec-img-wrap {
+  background-color: white;
+  width: 20em;
+  display: grid;
+  place-items: center;
+  border-radius: 5px;
+}
+
+.ec-text-wrap {
+  margin-top: 1em;
+  padding: 1.5em;
+  line-height: 1.5;
+}
+.ec-title {
+  font-weight: normal;
+  font-size: 1.3em;
+}
+.ec-text {
+  margin-top: 1em;
+  font-size: 1.1em;
+}
+.ec-readmore {
+  text-decoration: none;
+  color: red;
+  margin-top: 1em;
+}
+.section-title {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-title h3 {
+  font-size: 2.5em;
+  font-weight: normal;
+  margin-top: 2em;
+  color: #ffffff;
+}
+.section-title::before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -10%;
+  margin-right: 2em;
+  width: 5em;
+  height: 0.15em;
+  background-color: #e39d15;
+}
+.section-title::after {
+  content: "";
+  display: block;
+  position: absolute;
+  margin-right: -2em;
+
+  bottom: -15%;
+  width: 5em;
+  height: 0.15em;
+  background-color: #e39d15;
+}

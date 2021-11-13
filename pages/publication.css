@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f3f2f2;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  box-shadow: -1px 2px 5px rgb(0, 0, 0);
+  background-color: rgb(27, 27, 27);
+}
+.navbar {
+  max-width: 90em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(102, 100, 100);
+}
+.logo__text {
+  font-size: 1.5em;
+}
+.logo__text:nth-child(2) {
+  margin-left: 1em;
+}
+.nav__link {
+  text-decoration: none;
+  color: rgb(102, 100, 100);
+}
+@media (max-width: 65em) {
+  .nav__link {
+    display: none;
+  }
+}
+.nav__link:not(:last-child) {
+  margin-right: 2em;
+}
+.nav__link:hover {
+  color: rgb(223, 224, 224);
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 8em;
+  margin-bottom: 6em;
+  position: relative;
+}
+.footer-content {
+  max-width: 90em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-social {
+  min-width: 10em;
+  display: flex;
+  justify-content: space-around;
+}
+.fc-icon {
+  width: 20px;
+  height: 20px;
+}
+.fc-text {
+  margin-top: 1.5em;
+}
+.material-icons-outlined {
+  background-color: #e39d15;
+  position: absolute;
+  right: 10%;
+  top: 0;
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px; /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: "liga";
+}
+
+/* ------ Experience -------- */
+main {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.publications-content {
+  width: 100%;
+  max-width: 90em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-title {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-title h3 {
+  font-size: 2.5em;
+  font-weight: normal;
+  margin-top: 2em;
+  color: #000000;
+}
+.section-title::before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -10%;
+  margin-right: 2em;
+  width: 5em;
+  height: 0.15em;
+  background-color: #e39d15;
+}
+.section-title::after {
+  content: "";
+  display: block;
+  position: absolute;
+  margin-right: -2em;
+
+  bottom: -15%;
+  width: 5em;
+  height: 0.15em;
+  background-color: #e39d15;
+}
+.pb-card {
+  width: 100%;
+  max-width: 35em;
+  display: flex;
+  margin: 20px;
+  align-items: center;
+  padding: 1em;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.301);
+}
+.pb-cards-wrap {
+  width: 100%;
+  max-width: 75em;
+  margin-top: 4em;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.papers-card-text {
+  padding: 2em;
+}
+.pc-title {
+  font-size: 1.5em;
+  font-weight: normal;
+  color: #e39d15;
+}
+.pc-date {
+  margin-top: 0.5em;
+  color: #e39d15;
+}
+.pc-text {
+  margin-top: 0.8em;
+  line-height: 1.5em;
+}
+
+@media (max-width: 500px) {
+  .pb-card {
+    flex-direction: column;
+  }
+}
