@@ -544,8 +544,9 @@ li.slick-active {
   align-items: center;
 }
 .bg-content-title {
-  margin-top: 2em;
+  margin-top: 2.5em;
   font-size: 3em;
+  font-weight: normal;
 }
 .section-title {
   position: relative;
@@ -716,6 +717,9 @@ li.slick-active {
 }
 .achievements {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .ac-block {
   display: flex;
@@ -776,8 +780,13 @@ li.slick-active {
 }
 .achievements-content {
   margin-top: 3em;
+  box-sizing: border-box;
 }
-@media (max-width: 480px) {
+@media (max-width: 600px) {
+  .achievements-content {
+    margin-top: 3em;
+    width: 90%;
+  }
   .ac-block:nth-child(odd) {
     border-radius: 0 0 0 0;
     width: 100%;
@@ -786,6 +795,7 @@ li.slick-active {
     flex-direction: column;
     align-items: center;
     float: none;
+    box-sizing: border-box;
   }
   .ac-block:nth-child(even) {
     border-radius: 0 0 0 0;
@@ -794,5 +804,6 @@ li.slick-active {
     align-items: center;
     width: 100%;
     float: none;
+    box-sizing: border-box;
   }
 }
