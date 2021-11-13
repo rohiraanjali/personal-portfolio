@@ -79,7 +79,7 @@ body {
 }
 
 .hero-img {
-  width: 100%;
+  width: 80%;
   opacity: 0.6;
   max-width: 35em;
 }
@@ -110,7 +110,7 @@ body {
   }
   .hero-img {
     width: 100%;
-    max-width: 30em;
+    max-width: 20em;
   }
 
   .hr-text-h1 {
@@ -175,7 +175,8 @@ body {
   align-items: center;
 }
 .ab-title {
-  font-size: 3em;
+  font-size: 2.5em;
+  font-weight: normal;
 }
 .ab-text {
   margin-top: 1em;
@@ -220,13 +221,14 @@ body {
 .services-title-wrap {
 }
 .services-title {
-  font-size: 3em;
+  font-size: 2.5em;
+  font-weight: normal;
   margin-top: 2em;
 }
 .services-carousel-wrap {
   width: 100%;
   max-width: 80em;
-  margin-top: 3em;
+  margin-top: 5em;
   overflow: hidden;
 }
 
@@ -321,8 +323,9 @@ li.slick-active {
 .papers-title-wrap {
 }
 .papers-title {
-  font-size: 3.5em;
+  font-size: 2.5em;
   text-align: center;
+  font-weight: normal;
   margin-top: 2em;
 }
 
@@ -358,6 +361,7 @@ li.slick-active {
 }
 .papers-card-text {
   margin-top: 1em;
+  padding: 1.5em;
 }
 .pc-title {
   color: #e39d15;
@@ -630,8 +634,9 @@ li.slick-active {
 .testimonial-content {
   width: 100%;
   padding-top: 3em;
-  padding-bottom: 3em;
-  height: 30em;
+  padding-bottom: 4em;
+  /* height: 30em; */
+
   max-width: 90em;
   background-image: url("./images/tml-slider-img.png");
   background-size: cover;
@@ -654,6 +659,7 @@ li.slick-active {
   font-size: 3em;
   font-weight: normal;
   z-index: 2;
+  text-align: center;
   margin-top: 1em;
 }
 .testimonial-slider {
@@ -706,6 +712,7 @@ li.slick-active {
 .achievements {
   max-width: 90em;
   width: 100%;
+  margin-top: 6em;
 }
 .achievements {
   width: 100%;
@@ -762,22 +769,30 @@ li.slick-active {
   }
 }
 .achievements-title {
-  font-size: 3em;
+  margin-top: 3em;
+  font-size: 2.5em;
   text-align: center;
+  font-weight: normal;
 }
 .achievements-content {
-  margin-top: 6em;
+  margin-top: 3em;
 }
-@media (max-width: 750px) {
-  .ac-block {
-    width: 90%;
-  }
+@media (max-width: 480px) {
   .ac-block:nth-child(odd) {
     border-radius: 0 0 0 0;
-    padding: 0 2em;
+    width: 100%;
+    padding: 2em 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    float: none;
   }
   .ac-block:nth-child(even) {
     border-radius: 0 0 0 0;
-    padding: 0 2em;
+    padding: 2em 2em;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    float: none;
   }
 }
