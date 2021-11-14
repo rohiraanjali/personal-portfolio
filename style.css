@@ -54,7 +54,8 @@ html {
     margin-right: 0;
   }
   .nav__link {
-    margin: 0;
+    margin-top: 2em;
+    font-size: 20px;
   }
   .nav__links.active {
     width: 100%;
@@ -66,7 +67,7 @@ html {
     align-items: center;
     right: 0;
     position: absolute;
-    padding-bottom: 2em;
+    padding-bottom: 4em;
     gap: 1em;
     margin: 0;
     background-color: #1b1b1b;
