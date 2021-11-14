@@ -85,7 +85,11 @@ $(document).ready(function () {
   $(".burger-wrap").click(function (e) {
     $(this).toggleClass("active");
     $(".nav__links").toggleClass("active");
-
+    $("body").toggleClass("active");
     e.preventDefault();
+  });
+  $(".nav__link").click(function (e) {
+    $(".nav__links").removeClass("active");
+    $("body").removeClass("active");
   });
 });
