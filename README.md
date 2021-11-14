@@ -5,3 +5,5 @@
 - **SlickSliderJs** - Used in **Services**, **Papers&Publications** and **Testimonial Section** , Please read the documentation before editing https://kenwheeler.github.io/slick/
 - All the Images are in **images** folder.
 - All the pages and their styles are in **pages** folder.
+
+**Live-** https://zwuk0.github.io/personal-portfolio 
