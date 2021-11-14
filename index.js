@@ -81,3 +81,11 @@ $(".blg-grid").masonry({
   gutter: 25,
   fitWidth: true,
 });
+$(document).ready(function () {
+  $(".burger-wrap").click(function (e) {
+    $(this).toggleClass("active");
+    $(".nav__links").toggleClass("active");
+
+    e.preventDefault();
+  });
+});
