@@ -67,13 +67,20 @@
                 <h3 class="ec-title">CEO & Founder</h3>
                 <p class="ec-date">September 2016 - Present</p>
               </div>
+
               <p class="ec-text">
                 Evolve Business Excellence specializes in facilities management
                 services and procurement consultancy and business infrastructure
-                consultancy services.
+                consultancy services.<span id="dots">...</span
+                ><span id="more"
+                  >erisque enim ligula venenatis dolor. Maecenas nisl est,
+                  ultrices nec congue eget, auctor vitae massa. Fusce luctus
+                </span>
               </p>
             </div>
-            <a href="#" class="ec-readmore">read more</a>
+            <button class="ec-readmore" onclick="myFunction()" id="myBtn">
+              Read more
+            </button>
           </div>
           <div class="exp-card">
             <div class="ec-img-wrap">
@@ -225,6 +232,21 @@
           e.preventDefault();
         });
       });
+      function myFunction() {
+        var dots = document.getElementById("dots");
+        var moreText = document.getElementById("more");
+        var btnText = document.getElementById("myBtn");
+
+        if (dots.style.display === "none") {
+          dots.style.display = "inline";
+          btnText.innerHTML = "read more";
+          moreText.style.display = "none";
+        } else {
+          dots.style.display = "none";
+          btnText.innerHTML = "read less";
+          moreText.style.display = "inline";
+        }
+      }
     </script>
   </body>
 </html>

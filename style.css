@@ -110,7 +110,6 @@ html {
   background: rgba(23, 23, 23, 0.1);
 }
 .hero-content {
-  margin-top: 6em;
   max-width: 90em;
 
   width: 90%;
@@ -148,7 +147,7 @@ html {
   .hero-content {
     flex-direction: row-reverse;
     justify-content: space-around;
-    min-height: 53em;
+    padding-bottom: 5em;
   }
   .hero-img-wrap {
     width: 100;
