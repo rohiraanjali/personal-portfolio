@@ -862,7 +862,8 @@ li.slick-active {
   margin-top: 3em;
   font-size: 2.5em;
   text-align: center;
-  font-weight: normal;
+  font-weight: bold;
+  font-family: "Merriweather", serif;
 }
 .achievements-content {
   margin-top: 6em;
