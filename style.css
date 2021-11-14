@@ -147,7 +147,7 @@ html {
   .hero-content {
     flex-direction: row-reverse;
     justify-content: space-around;
-    padding-bottom: 5em;
+    /* padding-bottom: 5em; */
   }
   .hero-img-wrap {
     width: 100;
