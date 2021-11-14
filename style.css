@@ -221,7 +221,6 @@ html {
 .ab-title {
   font-size: 2.5em;
   font-weight: bold;
-  font-family: "Merriweather", serif;
 }
 .ab-text {
   margin-top: 1em;
@@ -274,7 +273,6 @@ html {
   font-size: 2.5em;
   font-weight: bold;
   margin-top: 2em;
-  font-family: "Merriweather", serif;
 }
 .services-carousel-wrap {
   width: 100%;
@@ -386,7 +384,6 @@ li.slick-active {
   text-align: center;
   font-weight: bold;
   margin-top: 2em;
-  font-family: "Merriweather", serif;
 }
 
 .papers-card-wrap {
@@ -424,7 +421,6 @@ li.slick-active {
 }
 .pc-title {
   color: rgba(227, 157, 21, 1);
-  font-family: "Merriweather", serif;
   font-weight: 300;
   font-size: 1.143em;
   text-align: center;
@@ -432,7 +428,6 @@ li.slick-active {
 .pc-date {
   color: rgba(227, 157, 21, 1);
 
-  font-family: "Merriweather", serif;
   font-weight: 300;
   margin-top: 0.3em;
 }
@@ -591,7 +586,6 @@ li.slick-active {
   font-weight: normal;
   font-style: italic;
   font-size: 1.3em;
-  font-family: "Merriweather", serif;
 }
 .ec-text {
   margin-top: 1em;
@@ -619,7 +613,6 @@ li.slick-active {
   margin-top: 2.5em;
   font-size: 3em;
   font-weight: bold;
-  font-family: "Merriweather", serif;
 }
 .section-title {
   position: relative;
@@ -863,7 +856,6 @@ li.slick-active {
   font-size: 2.5em;
   text-align: center;
   font-weight: bold;
-  font-family: "Merriweather", serif;
 }
 .achievements-content {
   margin-top: 6em;
